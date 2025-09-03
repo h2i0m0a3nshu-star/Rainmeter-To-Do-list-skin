@@ -1,0 +1,7 @@
+Basically here is the documentation of how the program should be working
+
+It will store all the to do items in a text file
+Once the skin is loaded it should read the text files and then automatically add it to the lists
+We might have to use a different scripting language like lua for this purpose
+
+The aesthetics or the vibes should be the 90s kind of like a hacker terminal vibe kind of
