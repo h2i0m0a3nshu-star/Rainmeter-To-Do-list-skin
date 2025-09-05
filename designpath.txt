@@ -1,0 +1,35 @@
+Basically here is the documentation of how the program should be working
+
+The aesthetics or the vibes should be the 90s kind of like a hacker terminal vibe kind of
+
+A Task can be treated as a class here or maybe a struct
+Task Attributes
+    - Task Message
+    - Due date
+    - Priority
+    - Status
+
+Basic storage of the task
+    - It will store the tasks in a txt file
+    - The txt file once loaded will only be checked back when an add task command will be performed
+    - Once the skin has been loaded lua will use an initialize function to load the tasks in the memory and then 
+      the tasks will be formated for the 
+    - Each task Attribute will be stored by a seperation in between
+        Example: Status|Task Message|Due date|Priority
+
+Now the command general formats for this terminal would be 
+
+    CMD "Message or comment"
+
+basic commands required for this terminal
+ADD     - CMD to add a task to the list
+        : Arguments required : Task Note, Due date, priority (default to the lowest)
+
+RM      - CMD to remove a task from the list
+        : Arguments required : Task priority number
+
+CP      - CMD to change the priority of the task
+        : Arguments required : Task current priority number, new priority number
+
+HELP    - CMD to present the list of all the CMD with details
+        : Arguments required : None

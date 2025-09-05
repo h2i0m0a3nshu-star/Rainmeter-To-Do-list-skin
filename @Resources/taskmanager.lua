@@ -4,6 +4,14 @@ function initialize()
     taskFilePath = SELF:GetOption('TaskListFile')
 end
 
+-- Function that analyzes what kind of command has been entered in the terminal
+function analyzeCMD(newcommand)
+    local cmd;
+    local statement;
+    if(newcommand == 'add') then addtasks() 
+end
+
+
 -- Read tasks from file and return as table of task objects
 function readtasks()
     local file = io.open(taskFilePath, 'r')
